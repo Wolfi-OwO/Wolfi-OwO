@@ -3,7 +3,6 @@
 Hi, I'm Phillip.  
 I'm an Informatics student and developer focused on building practical software systems, web applications, and automation tools.
 
----
 
 ## Focus Areas
 
@@ -13,7 +12,6 @@ I'm an Informatics student and developer focused on building practical software 
 - Discord bots and game-related systems
 - Data visualization tools
 
----
 
 ## Tech Stack
 
@@ -53,7 +51,6 @@ For development and deployment, I use a variety of tools and platforms, includin
 - Linux for development and server management (currently using Arch Linux)
 - Azure for cloud services and hosting
 
----
 
 ## Featured Projects
 
@@ -74,13 +71,11 @@ The goal is to make machine learning concepts more understandable through visual
 **Live Demo:** <https://ml-visualizer.at/>  
 **Repository:** <https://gitlab.com/woofi4/Projects/5bhif-datascience-webapp>  
 
----
 
 ## Other Projects
 
 More projects and experiments are available on my GitHub profile and will be continuously added as I develop new systems.
 
----
 
 ## Contact
 
@@ -88,7 +83,6 @@ More projects and experiments are available on my GitHub profile and will be con
 - GitHub: <https://github.com/Wolfi-OwO>
 - LinkedIn: <https://www.linkedin.com/in/phillip-kofler/>
 
----
 
 ## Notes
 

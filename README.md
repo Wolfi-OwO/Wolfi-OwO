@@ -17,17 +17,7 @@ The current tech stack I am most comfortable with and use for my projects includ
 
 - Programming Languages: JavaScript/TypeScript, Python, SQL, Java, C#
 
-Depending on the project's usage area, I also work with other languages and technologies, but the ones listed above are my main focus for web development and automation projects.
-
-### Frontend
-
-For the frontend, I primarily use:
-
-- React (JavaScript and TypeScript)
-- Angular (TypeScript)
-- HTML/CSS/JavaScript (for simpler projects or when I want more control over the frontend)
-
-For styling, I often use CSS frameworks like Tailwind CSS or Bootstrap, but I also enjoy writing custom CSS for more unique designs.
+Depending on the project's usage area, I also work with other languages and technologies, but the ones listed above are my main focus for web development and automation projects. For styling, I often use CSS frameworks like Tailwind CSS or Bootstrap, but I also enjoy writing custom CSS for more unique designs.
 
 ### Tools & Platforms
 

@@ -82,8 +82,3 @@ More projects and experiments are available on my GitHub profile and will be con
 - Email: <koflerphillip@outlook.com>
 - GitHub: <https://github.com/Wolfi-OwO>
 - LinkedIn: <https://www.linkedin.com/in/phillip-kofler/>
-
-
-## Notes
-
-This profile contains personal and educational projects used for learning and experimentation. I am continuously improving and expanding my skill set across full-stack development and automation.

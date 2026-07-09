@@ -37,4 +37,4 @@ More projects and experiments are available on my GitHub profile and will be con
 
 - Email: <koflerphillip@outlook.com>
 - GitHub: <https://github.com/Wolfi-OwO>
-- LinkedIn: <https://www.linkedin.com/in/phillip-kofler/>
+- LinkedIn: <https://www.linkedin.com/in/kofler-phillip-8666ab338>

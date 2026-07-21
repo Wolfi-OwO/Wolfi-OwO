@@ -1,0 +1,36 @@
+name: Collect repo traffic
+
+on:
+  schedule:
+    # Daily at 04:17 UTC. Must run at least every 14 days or data is lost,
+    # since the GitHub traffic API only retains a rolling 14-day window.
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: traffic
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect traffic
+        env:
+          # The built-in GITHUB_TOKEN cannot read the traffic API: it requires
+          # the `administration` scope, which is not settable on that token.
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: python3 traffic/collect.py
+
+      - name: Commit updated counts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic/data traffic/badges
+          git diff --staged --quiet || git commit -m "chore: update traffic counts"
+          git push

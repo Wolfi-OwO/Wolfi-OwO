@@ -19,13 +19,13 @@
 
 ---
 
-## 🚀 Projects
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [NetViz](https://github.com/Wolfi-OwO/network-visualizer)
+### [NetViz](https://github.com/Wolfi-OwO/network-visualizer)
 
 Design, visualize, and **simulate** enterprise networks in the browser — drag-and-drop topology builder, live packet capture, and a CIDR calculator.
 
@@ -39,7 +39,7 @@ Design, visualize, and **simulate** enterprise networks in the browser — drag-
 </td>
 <td width="50%" valign="top">
 
-### 📦 [lattice](https://github.com/Wolfi-OwO/lattice)
+### [lattice](https://github.com/Wolfi-OwO/lattice)
 
 Zero-dependency project scaffolder. One command, a working stack — Express with 6 interchangeable DB adapters, Spring Boot, FastAPI, React+Vite, JavaFX, Android+Compose.
 
@@ -55,7 +55,7 @@ Zero-dependency project scaffolder. One command, a working stack — Express wit
 <tr>
 <td width="50%" valign="top">
 
-### 🖼️ [image-upscaler](https://github.com/Wolfi-OwO/cli-image-upscaler)
+### [image-upscaler](https://github.com/Wolfi-OwO/cli-image-upscaler)
 
 AI-powered CLI upscaling (2×–16×) via Real-ESRGAN, with GFPGAN face restoration, batch processing, and GPU acceleration. Runs **100% locally** — no cloud, no uploads.
 
@@ -69,7 +69,7 @@ AI-powered CLI upscaling (2×–16×) via Real-ESRGAN, with GFPGAN face restorat
 </td>
 <td width="50%" valign="top">
 
-### 💼 [Portfolio](https://github.com/Wolfi-OwO/portfolio-webpage)
+### [Portfolio](https://github.com/Wolfi-OwO/portfolio-webpage)
 
 Personal developer portfolio with a live status/uptime monitor — React frontend, Express/MongoDB backend, JWT-authenticated admin API, deployed on Azure.
 
@@ -85,7 +85,7 @@ Personal developer portfolio with a live status/uptime monitor — React fronten
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 [LearnSphere](https://github.com/Wolfi-OwO/learnsphere)
+### [LearnSphere](https://github.com/Wolfi-OwO/learnsphere)
 
 E-learning platform for practising skills, topics, and school subjects — course catalog, progress tracking, and interactive materials.
 
@@ -98,7 +98,7 @@ E-learning platform for practising skills, topics, and school subjects — cours
 </td>
 <td width="50%" valign="top">
 
-### 🧭 More
+### More
 
 Additional projects and experiments are added continuously — including Discord bots and game-related systems.
 
@@ -110,7 +110,7 @@ Additional projects and experiments are added continuously — including Discord
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr><td><b>Languages</b></td><td>
@@ -155,20 +155,20 @@ Additional projects and experiments are added continuously — including Discord
 
 ---
 
-## 🎯 Focus Areas
+## Focus Areas
 
 | | |
 |---|---|
-| 🌍 **Full-stack web** | React, Angular, Node.js |
-| ⚙️ **Backend & APIs** | REST, authentication, database design |
-| 🤖 **Automation & scripting** | Python tooling and CLI utilities |
-| 🎮 **Bots & game systems** | Discord bots, game-related tooling |
-| 📊 **Data visualization** | Interactive, browser-based tools |
+| **Full-stack web** | React, Angular, Node.js |
+| **Backend & APIs** | REST, authentication, database design |
+| **Automation & scripting** | Python tooling and CLI utilities |
+| **Bots & game systems** | Discord bots, game-related tooling |
+| **Data visualization** | Interactive, browser-based tools |
 
 <div align="center">
 
 ---
 
-📫 **koflerphillip@outlook.com** · 🌐 **[woofi-developments.at](https://www.woofi-developments.at)**
+**koflerphillip@outlook.com** · **[woofi-developments.at](https://www.woofi-developments.at)**
 
 </div>

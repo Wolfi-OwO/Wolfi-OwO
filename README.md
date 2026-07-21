@@ -1,5 +1,7 @@
 # Phillip — Software Developer
 
+![Repo views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/Wolfi-OwO.json)
+
 Hi, I'm Phillip.  
 I'm an Informatics student and developer focused on building practical software systems, web applications, and automation tools.
 

@@ -9,7 +9,7 @@
 ![Commits](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/commits.json)
 ![Pull requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/pullrequests.json)
 ![Projects](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/projects.json)
-![Profile views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/Wolfi-OwO.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/Wolfi-OwO.json)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-woofi--developments.at-0a7ea4?logo=googlechrome&logoColor=white)](https://www.woofi-developments.at)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kofler-phillip-8666ab338)
@@ -34,7 +34,7 @@ Design, visualize, and **simulate** enterprise networks in the browser — drag-
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47a248?logo=mongodb&logoColor=white)
 
 [![Live](https://img.shields.io/badge/live-netviz.woofi--developments.at-success?logo=icloud&logoColor=white)](https://netviz.woofi-developments.at)
-![Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/network-visualizer.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/network-visualizer.json)
 
 </td>
 <td width="50%" valign="top">
@@ -48,7 +48,7 @@ Zero-dependency project scaffolder. One command, a working stack — Express wit
 ![CLI](https://img.shields.io/badge/-CLI-4d4d4d?logo=gnubash&logoColor=white)
 
 [![npm](https://img.shields.io/badge/npm-create_lattice@latest-cb3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/create-lattice)
-![Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/lattice.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/lattice.json)
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ AI-powered CLI upscaling (2×–16×) via Real-ESRGAN, with GFPGAN face restorat
 ![GPU](https://img.shields.io/badge/-GPU-76b900?logo=nvidia&logoColor=white)
 
 [![Docker Hub](https://img.shields.io/badge/docker_hub-wolfiowo-2496ed?logo=docker&logoColor=white)](https://hub.docker.com/r/wolfiowo/cli-image-upscaler)
-![Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/cli-image-upscaler.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/cli-image-upscaler.json)
 
 </td>
 <td width="50%" valign="top">
@@ -78,7 +78,7 @@ Personal developer portfolio with a live status/uptime monitor — React fronten
 ![Azure](https://img.shields.io/badge/-Azure-0078d4?logo=microsoftazure&logoColor=white)
 
 [![Live](https://img.shields.io/badge/live-woofi--developments.at-success?logo=icloud&logoColor=white)](https://www.woofi-developments.at)
-![Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/portfolio-webpage.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/portfolio-webpage.json)
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ E-learning platform for practising skills, topics, and school subjects — cours
 ![React](https://img.shields.io/badge/-React-61dafb?logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/-Vite-646cff?logo=vite&logoColor=white)
 
-![Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/learnsphere.json)
+![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/learnsphere.json)
 
 </td>
 <td width="50%" valign="top">

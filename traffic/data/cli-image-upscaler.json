@@ -59,7 +59,8 @@
   },
   "totals": {
     "uniques": 6,
-    "views": 21
+    "views": 21,
+    "visitors_excluding_owner": 0
   },
   "tracking_since": "2026-07-07"
 }

@@ -109,12 +109,12 @@ def collect_profile():
     print("profile: " + ", ".join(f"{k}={v[1]}" for k, v in stats.items()))
 
 
-def color(views):
-    if views >= 1000:
+def color(visitors):
+    if visitors >= 100:
         return "brightgreen"
-    if views >= 100:
+    if visitors >= 25:
         return "green"
-    if views >= 10:
+    if visitors >= 5:
         return "blue"
     return "lightgrey"
 
@@ -149,12 +149,23 @@ def main():
 
         total_views = sum(d["count"] for d in store["days"].values())
         total_uniques = sum(d["uniques"] for d in store["days"].values())
-        store["totals"] = {"views": total_views, "uniques": total_uniques}
+
+        # `uniques` is deduplicated per day, so summing it across days re-adds
+        # the owner roughly once per day. Drop one visitor from every day that
+        # saw any traffic, on the assumption it was us. Undercounts by 1 on days
+        # we genuinely didn't visit; over months that beats inflating by ~365.
+        visitors = sum(max(0, d["uniques"] - 1) for d in store["days"].values())
+
+        store["totals"] = {
+            "views": total_views,
+            "uniques": total_uniques,
+            "visitors_excluding_owner": visitors,
+        }
         store["tracking_since"] = min(store["days"]) if store["days"] else None
 
         store_path.write_text(json.dumps(store, indent=2, sort_keys=True) + "\n")
-        write_badge(repo, "views", f"{total_views:,}", color(total_views))
-        print(f"{repo}: {total_views} views / {total_uniques} uniques")
+        write_badge(repo, "visitors", f"{visitors:,}", color(visitors))
+        print(f"{repo}: {visitors} visitors (raw: {total_views} views / {total_uniques} uniques)")
 
     try:
         collect_profile()

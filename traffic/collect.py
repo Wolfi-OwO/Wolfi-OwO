@@ -46,6 +46,69 @@ def fetch(repo):
         return json.load(resp)
 
 
+PROFILE_QUERY = """
+{
+  viewer {
+    repositories(ownerAffiliations: OWNER, privacy: PUBLIC) { totalCount }
+    contributionsCollection {
+      totalCommitContributions
+      totalPullRequestContributions
+      contributionCalendar { totalContributions }
+    }
+  }
+}
+"""
+
+
+def graphql(query):
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query}).encode(),
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+            "User-Agent": "traffic-collector",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        body = json.load(resp)
+    if "errors" in body:
+        raise RuntimeError(body["errors"])
+    return body["data"]
+
+
+def write_badge(name, label, message, badge_color):
+    (BADGES / f"{name}.json").write_text(
+        json.dumps(
+            {
+                "schemaVersion": 1,
+                "label": label,
+                "message": message,
+                "color": badge_color,
+            },
+            indent=2,
+        )
+        + "\n"
+    )
+
+
+def collect_profile():
+    """Profile-level stats. Deliberately omits stars/forks/followers: badging a
+    zero draws the eye to the weakest number on the page."""
+    v = graphql(PROFILE_QUERY)["viewer"]
+    c = v["contributionsCollection"]
+
+    stats = {
+        "contributions": ("contributions (1y)", c["contributionCalendar"]["totalContributions"], "brightgreen"),
+        "commits": ("commits (1y)", c["totalCommitContributions"], "blue"),
+        "pullrequests": ("pull requests (1y)", c["totalPullRequestContributions"], "blueviolet"),
+        "projects": ("public projects", v["repositories"]["totalCount"], "orange"),
+    }
+    for name, (label, value, badge_color) in stats.items():
+        write_badge(name, label, f"{value:,}", badge_color)
+    print("profile: " + ", ".join(f"{k}={v[1]}" for k, v in stats.items()))
+
+
 def color(views):
     if views >= 1000:
         return "brightgreen"
@@ -90,19 +153,14 @@ def main():
         store["tracking_since"] = min(store["days"]) if store["days"] else None
 
         store_path.write_text(json.dumps(store, indent=2, sort_keys=True) + "\n")
-        (BADGES / f"{repo}.json").write_text(
-            json.dumps(
-                {
-                    "schemaVersion": 1,
-                    "label": "views",
-                    "message": f"{total_views:,}",
-                    "color": color(total_views),
-                },
-                indent=2,
-            )
-            + "\n"
-        )
+        write_badge(repo, "views", f"{total_views:,}", color(total_views))
         print(f"{repo}: {total_views} views / {total_uniques} uniques")
+
+    try:
+        collect_profile()
+    except Exception as e:
+        # Traffic data is the time-sensitive part; don't fail the run over stats.
+        print(f"::warning::profile stats failed: {e}")
 
     if len(failed) == len(REPOS):
         sys.exit(f"every repo failed: {failed}")

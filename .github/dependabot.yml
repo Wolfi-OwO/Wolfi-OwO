@@ -3,6 +3,10 @@ version: 2
 # Only workflows here — the traffic collector is stdlib Python, no manifests.
 updates:
   - package-ecosystem: github-actions
+    # Action bumps are always major (v4 -> v5), so a semver-major ignore here
+    # means they never update and deprecation warnings become hard failures on
+    # GitHub's schedule. Majors stay ignored for npm/pip/docker, where they are
+    # real migrations.
     directory: /
     schedule:
       interval: monthly
@@ -14,6 +18,4 @@ updates:
     groups:
       github-actions:
         patterns: ["*"]
-    ignore:
-      - dependency-name: "*"
-        update-types: [version-update:semver-major]
+

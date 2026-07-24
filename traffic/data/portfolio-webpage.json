@@ -59,11 +59,19 @@
     "2026-07-21": {
       "count": 8,
       "uniques": 2
+    },
+    "2026-07-22": {
+      "count": 5,
+      "uniques": 1
+    },
+    "2026-07-23": {
+      "count": 3,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 16,
-    "views": 270,
+    "uniques": 18,
+    "views": 278,
     "visitors_excluding_owner": 2
   },
   "tracking_since": "2026-07-07"

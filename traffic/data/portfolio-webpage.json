@@ -167,11 +167,19 @@
     "2026-08-17": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-08-18": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-08-19": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 23,
-    "views": 310,
+    "uniques": 24,
+    "views": 311,
     "visitors_excluding_owner": 2
   },
   "tracking_since": "2026-07-07"

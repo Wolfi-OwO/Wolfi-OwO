@@ -1,6 +1,6 @@
 <div align="center">
 
-# Phillip Kofler
+# Wolfi
 
 **Informatics student & developer** — practical software systems, web applications, and automation tools.
 

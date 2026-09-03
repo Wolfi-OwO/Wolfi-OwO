@@ -227,11 +227,15 @@
     "2026-09-01": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-09-02": {
+      "count": 3,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 14,
-    "views": 77,
+    "uniques": 15,
+    "views": 80,
     "visitors_excluding_owner": 1
   },
   "tracking_since": "2026-07-07"

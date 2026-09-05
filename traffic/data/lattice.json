@@ -235,11 +235,15 @@
     "2026-09-03": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-09-04": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 20,
-    "views": 242,
+    "uniques": 21,
+    "views": 243,
     "visitors_excluding_owner": 1
   },
   "tracking_since": "2026-07-07"

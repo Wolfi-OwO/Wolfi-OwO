@@ -303,12 +303,16 @@
     "2026-09-20": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-09-21": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "totals": {
-    "uniques": 31,
-    "views": 88,
-    "visitors_excluding_owner": 10
+    "uniques": 33,
+    "views": 90,
+    "visitors_excluding_owner": 11
   },
   "tracking_since": "2026-07-07"
 }

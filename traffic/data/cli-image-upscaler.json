@@ -315,11 +315,35 @@
     "2026-09-23": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-09-24": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-09-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-09-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-09-27": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-09-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-09-29": {
+      "count": 0,
+      "uniques": 0
     }
   },
   "totals": {
-    "uniques": 16,
-    "views": 81,
+    "uniques": 17,
+    "views": 82,
     "visitors_excluding_owner": 1
   },
   "tracking_since": "2026-07-07"

@@ -351,11 +351,15 @@
     "2026-10-02": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-03": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 40,
-    "views": 426,
+    "uniques": 41,
+    "views": 427,
     "visitors_excluding_owner": 2
   },
   "tracking_since": "2026-07-07"

@@ -371,11 +371,15 @@
     "2026-10-07": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-08": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 45,
-    "views": 475,
+    "uniques": 46,
+    "views": 476,
     "visitors_excluding_owner": 4
   },
   "tracking_since": "2026-07-07"

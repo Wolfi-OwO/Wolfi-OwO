@@ -383,11 +383,15 @@
     "2026-10-10": {
       "count": 1,
       "uniques": 1
+    },
+    "2026-10-11": {
+      "count": 9,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 43,
-    "views": 126,
+    "uniques": 44,
+    "views": 135,
     "visitors_excluding_owner": 12
   },
   "tracking_since": "2026-07-07"

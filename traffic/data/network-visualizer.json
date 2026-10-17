@@ -403,11 +403,15 @@
     "2026-10-15": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-16": {
+      "count": 3,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 46,
-    "views": 138,
+    "uniques": 47,
+    "views": 141,
     "visitors_excluding_owner": 13
   },
   "tracking_since": "2026-07-07"

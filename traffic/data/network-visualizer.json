@@ -419,11 +419,15 @@
     "2026-10-19": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-20": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 49,
-    "views": 143,
+    "uniques": 50,
+    "views": 144,
     "visitors_excluding_owner": 13
   },
   "tracking_since": "2026-07-07"

@@ -443,11 +443,15 @@
     "2026-10-25": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-10-26": {
+      "count": 10,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 48,
-    "views": 518,
+    "uniques": 49,
+    "views": 528,
     "visitors_excluding_owner": 4
   },
   "tracking_since": "2026-07-07"

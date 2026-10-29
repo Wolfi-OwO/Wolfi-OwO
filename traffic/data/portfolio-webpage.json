@@ -451,11 +451,15 @@
     "2026-10-27": {
       "count": 2,
       "uniques": 1
+    },
+    "2026-10-28": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 50,
-    "views": 530,
+    "uniques": 51,
+    "views": 531,
     "visitors_excluding_owner": 4
   },
   "tracking_since": "2026-07-07"

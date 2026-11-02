@@ -467,11 +467,15 @@
     "2026-10-31": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-01": {
+      "count": 16,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 59,
-    "views": 157,
+    "uniques": 60,
+    "views": 173,
     "visitors_excluding_owner": 17
   },
   "tracking_since": "2026-07-07"

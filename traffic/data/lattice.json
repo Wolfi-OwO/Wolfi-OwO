@@ -491,11 +491,15 @@
     "2026-11-06": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-07": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 36,
-    "views": 258,
+    "uniques": 37,
+    "views": 259,
     "visitors_excluding_owner": 10
   },
   "tracking_since": "2026-07-07"

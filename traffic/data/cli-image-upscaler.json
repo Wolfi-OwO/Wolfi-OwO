@@ -503,12 +503,16 @@
     "2026-11-09": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-10": {
+      "count": 4,
+      "uniques": 2
     }
   },
   "totals": {
-    "uniques": 25,
-    "views": 96,
-    "visitors_excluding_owner": 5
+    "uniques": 27,
+    "views": 100,
+    "visitors_excluding_owner": 6
   },
   "tracking_since": "2026-07-07"
 }

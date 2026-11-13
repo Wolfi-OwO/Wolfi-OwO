@@ -511,11 +511,15 @@
     "2026-11-11": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-12": {
+      "count": 1,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 64,
-    "views": 178,
+    "uniques": 65,
+    "views": 179,
     "visitors_excluding_owner": 19
   },
   "tracking_since": "2026-07-07"

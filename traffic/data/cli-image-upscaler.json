@@ -535,12 +535,16 @@
     "2026-11-17": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-18": {
+      "count": 2,
+      "uniques": 2
     }
   },
   "totals": {
-    "uniques": 27,
-    "views": 100,
-    "visitors_excluding_owner": 6
+    "uniques": 29,
+    "views": 102,
+    "visitors_excluding_owner": 7
   },
   "tracking_since": "2026-07-07"
 }

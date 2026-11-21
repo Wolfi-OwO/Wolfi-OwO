@@ -10,6 +10,7 @@
 ![Pull requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/pullrequests.json)
 ![Projects](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/projects.json)
 ![Visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Wolfi-OwO/Wolfi-OwO/main/traffic/badges/Wolfi-OwO.json)
+![Profile views](https://komarev.com/ghpvc/?username=Wolfi-OwO&label=Profile%20views&color=blue)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-woofi--developments.at-0a7ea4?logo=googlechrome&logoColor=white)](https://www.woofi-developments.at)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kofler-phillip-8666ab338)

@@ -567,11 +567,15 @@
     "2026-11-25": {
       "count": 0,
       "uniques": 0
+    },
+    "2026-11-26": {
+      "count": 5,
+      "uniques": 1
     }
   },
   "totals": {
-    "uniques": 58,
-    "views": 571,
+    "uniques": 59,
+    "views": 576,
     "visitors_excluding_owner": 5
   },
   "tracking_since": "2026-07-07"
